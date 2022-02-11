@@ -48,7 +48,7 @@ Private Sub btnLogin_Click()
         'Show error label
         Me.lblWrongPassword.Visible = True
         Me.txtPassword.SetFocus
-        'Exit the subroutine due to error
+        'Exit subroutine
         Exit Sub
     End If
     'Hide error label
