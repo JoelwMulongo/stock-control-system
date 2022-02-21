@@ -6,7 +6,7 @@ Private Sub btnClose_Click()
 End Sub
 
 Private Sub btnOK_Click()
-    'Declare variables to be used
+    'Declare variables
     Dim DocName As String 'name for document to be opened
     Dim strCondition As String 'name for condition
     
