@@ -18,7 +18,7 @@ Private Sub btnLogin_Click()
     
     'Error message if Username field is empty
     If IsNull(Me.Combo12) = True Then
-        MsgBox "Username is required!", vbExclamation
+        MsgBox "Username is required!!", vbExclamation
         Me.Combo12.SetFocus
         'Exit the subroutine due to error
         Exit Sub
@@ -37,7 +37,7 @@ Private Sub btnLogin_Click()
     
     'Error message if Password field is empty
     If IsNull(Me.txtPassword) = True Then
-        MsgBox "Password is required!", vbExclamation
+        MsgBox "Password is required!!", vbExclamation
         Me.txtPassword.SetFocus
         'Exit the subroutine due to error
         Exit Sub
