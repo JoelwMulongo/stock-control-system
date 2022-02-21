@@ -4,7 +4,6 @@ Private Sub btnClose_Click()
     'Close the form
     DoCmd.Close acForm, "frmItembyID"
 End Sub
-
 Private Sub btnOK_Click()
     'Declare variables to be used
     Dim DocName As String 'name for document to be opened
