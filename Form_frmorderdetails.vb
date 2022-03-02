@@ -1,5 +1,4 @@
 Option Compare Database
-
 Private Sub CostPrice_AfterUpdate()
     'Error message if value is less and equal to zero
     If Me.CostPrice <= 0 Then
@@ -10,11 +9,9 @@ Private Sub CostPrice_AfterUpdate()
         Me.CostPrice.SetFocus
     End If
 End Sub
-
 Private Sub Form_Error(DataErr As Integer, Response As Integer)
     Const conErrDataType = 2113
-    
-    'Replace standard error message with custom error message
+      'Replace standard error message with custom error message
     If DataErr = conErrDataType Then
         MsgBox "Invalid Data! Please enter numeric data only.", vbCritical, "Error Message"
         Response = acDataErrContinue
@@ -23,7 +20,6 @@ Private Sub Form_Error(DataErr As Integer, Response As Integer)
         Response = acDataErrDisplay
     End If
 End Sub
-
 Private Sub ItemID_AfterUpdate()
     'Error message if value is less and equal to zero
     If Me.ItemID <= 0 Then
@@ -34,20 +30,16 @@ Private Sub ItemID_AfterUpdate()
         Me.ItemID.SetFocus
     End If
 End Sub
-
 Private Sub ItemName_AfterUpdate()
     'Declare varibales to be used
     Dim dbs As DAO.Database 'name for current database
     Dim rst As DAO.Recordset 'name for new recordset
-        
-    'Set values for database and recordset
+   'Set values for database and recordset
     Set dbs = CurrentDb
     Set rst = dbs.OpenRecordset("tblStock")
-    
-    'Search recordset for required record
+   'Search recordset for required record
     rst.Index = "tblStockItemName"
     rst.Seek "=", Me!ItemName
-    
     'Copy values from recordset
     Me!CostPrice = rst("CostPrice")
     Me!ItemID = rst("ItemID")
