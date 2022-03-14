@@ -1,5 +1,4 @@
 Option Compare Database
-
 Private Sub btnClose_Click()
     'Ask to save record before closing form if Temp is equal to Yes
      If Me.txtTemp = "Yes" Then
