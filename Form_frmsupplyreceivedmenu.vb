@@ -4,7 +4,6 @@ Private Sub btnClose_Click()
     'Exit Database
     DoCmd.Quit
 End Sub
-
 Private Sub btnFindbyDate_Click()
     'Open Find Supply by Date form
     DoCmd.OpenForm "frmSupplybyDate", acNormal
@@ -29,7 +28,6 @@ Private Sub btnForm_Click()
     'Open Supply Received Form
     DoCmd.OpenForm "frmSupplyReceived", acNormal
 End Sub
-
 Private Sub btnFromUntil_Click()
     'Open Find Supply Received From Until form
     DoCmd.OpenForm "frmSupplyReceivedFromUntil", acNormal
