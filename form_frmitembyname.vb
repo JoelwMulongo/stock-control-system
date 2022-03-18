@@ -1,10 +1,8 @@
 Option Compare Database
-
-Private Sub btnClose_Click()
+private Sub btnClose_Click()
     'Close the form
     DoCmd.Close acForm, "frmItembyName"
 End Sub
-
 Private Sub btnOK_Click()
     'Declare variables to be used
     Dim DocName As String 'name for document to be opened
