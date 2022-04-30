@@ -11,7 +11,6 @@ Private Sub btnOK_Click()
     DocName = "rptOrders"
     'Assign condition where OrderDate matches
     strCondition = "OrderDate = #" & Me.txtOrderDate & "#"
-    
     'Open Orders Report
     DoCmd.OpenReport DocName, acViewReport, , strCondition
     'Close the form
