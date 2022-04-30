@@ -1,5 +1,4 @@
 Option Compare Database
-
 Private Sub btnClose_Click()
     'Close the form
     DoCmd.Close acForm, "frmOrderbyDate"
