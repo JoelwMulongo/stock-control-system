@@ -3,7 +3,6 @@ Private Sub btnClose_Click()
     'Close the form
     DoCmd.Close acForm, "frmOrderbyDate"
 End Sub
-
 Private Sub btnOK_Click()
     'Declare variables
     Dim DocName As String 'name for document to be opened
