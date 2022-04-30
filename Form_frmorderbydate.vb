@@ -7,7 +7,6 @@ Private Sub btnOK_Click()
     'Declare variables
     Dim DocName As String 'name for document to be opened
     Dim strCondition As String 'name for condition
-    
     'Assign value to DocName
     DocName = "rptOrders"
     'Assign condition where OrderDate matches
