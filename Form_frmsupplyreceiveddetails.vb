@@ -1,5 +1,4 @@
 Option Compare Database
-
 Private Sub CostPrice_AfterUpdate()
     'Error message if value is less and equal to zero
     If Me.CostPrice <= 0 Then
