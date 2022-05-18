@@ -1,5 +1,4 @@
 Option Compare Database
-
 Private Sub btnExit_Click()
     'Exit Database
     DoCmd.Quit
