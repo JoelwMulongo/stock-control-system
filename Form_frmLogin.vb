@@ -20,7 +20,6 @@ Private Sub btnLogin_Click()
         'Exit the subroutine due to error
         Exit Sub
     End If
-    
     'Error if entered username doesn't match existing username
     If Me.Combo12 <> UserName Then
         'Show error label
