@@ -45,7 +45,6 @@ Private Sub ItemName_AfterUpdate()
     Me!ItemID = rst("ItemID")
     'Close recordset
     rst.Close
-    
     'Set variables to nothing
     Set rst = Nothing
     Set dbs = Nothing
