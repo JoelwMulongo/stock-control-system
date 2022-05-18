@@ -3,7 +3,6 @@ Private Sub btnExit_Click()
     'Exit Database
     DoCmd.Quit
 End Sub
-
 Private Sub btnLogin_Click()
     
    'Set values for database and recordset
