@@ -4,8 +4,7 @@ Private Sub btnExit_Click()
     DoCmd.Quit
 End Sub
 Private Sub btnLogin_Click()
-    
-   'Set values for database and recordset
+     'Set values for database and recordset
     Set dbs = CurrentDb
     Set rst = dbs.OpenRecordset("tbl_login")
     
