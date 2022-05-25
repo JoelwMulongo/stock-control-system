@@ -9,7 +9,6 @@ Private Sub btnFindbyDate_Click()
     'Open Find Order by Date form
     DoCmd.OpenForm "frmOrderbyDate", acNormal
 End Sub
-
 Private Sub btnFindbyID_Click()
     'Open Find Order by ID form
     DoCmd.OpenForm "frmOrderbyID", acNormal
