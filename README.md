@@ -4,7 +4,7 @@
 
   ![GitHub forks](https://img.shields.io/github/forks/joelwmulongo/stock-control-system?style=social)
 
-  [![Twitter Follow](https://img.shields.io/twitter/follow/mulongojoel?style=social)](https://twitter.com/intent/follow?screen_name=JoelMulongo)
+  [![Twitter Follow](https://img.shields.io/twitter/follow/mulongojoel?style=social)](https://twitter.com/intent/follow?screen_name=mulongojoel)
 
   [![YouTube Video Views](https://img.shields.io/youtube/views/55n9hx6QmVA?style=social)](hbe/)
 
