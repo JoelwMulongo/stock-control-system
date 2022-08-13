@@ -6,7 +6,8 @@
 
   [![Twitter Follow](https://img.shields.io/twitter/follow/mulongojoel?style=social)](https://twitter.com/intent/follow?screen_name=mulongojoel)
 
-  [![YouTube Video Views](https://img.shields.io/youtube/views/55n9hx6QmVA?style=social)](hbe/)
+ 
+<img width="200" height="40" src="https://visitor-badge.glitch.me/badge?page_id=joelwmulongo/stock-control-system">
 
 
 # stock-control-system
