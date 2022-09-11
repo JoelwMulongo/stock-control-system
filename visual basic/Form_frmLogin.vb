@@ -1,13 +1,10 @@
 Option Compare Database
-
 Private Sub btnExit_Click()
     'Exit Database
     DoCmd.Quit
 End Sub
-
 Private Sub btnLogin_Click()
-    
-   'Set values for database and recordset
+     'Set values for database and recordset
     Set dbs = CurrentDb
     Set rst = dbs.OpenRecordset("tbl_login")
     
@@ -18,12 +15,11 @@ Private Sub btnLogin_Click()
     
     'Error message if Username field is empty
     If IsNull(Me.Combo12) = True Then
-        MsgBox "Username is required!", vbExclamation
+        MsgBox "Username is required!!", vbExclamation
         Me.Combo12.SetFocus
         'Exit the subroutine due to error
         Exit Sub
     End If
-    
     'Error if entered username doesn't match existing username
     If Me.Combo12 <> UserName Then
         'Show error label
@@ -37,7 +33,7 @@ Private Sub btnLogin_Click()
     
     'Error message if Password field is empty
     If IsNull(Me.txtPassword) = True Then
-        MsgBox "Password is required!", vbExclamation
+        MsgBox "Password is required!!", vbExclamation
         Me.txtPassword.SetFocus
         'Exit the subroutine due to error
         Exit Sub
@@ -48,7 +44,7 @@ Private Sub btnLogin_Click()
         'Show error label
         Me.lblWrongPassword.Visible = True
         Me.txtPassword.SetFocus
-        'Exit the subroutine due to error
+        'Exit subroutine
         Exit Sub
     End If
     'Hide error label

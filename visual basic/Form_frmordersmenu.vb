@@ -9,7 +9,6 @@ Private Sub btnFindbyDate_Click()
     'Open Find Order by Date form
     DoCmd.OpenForm "frmOrderbyDate", acNormal
 End Sub
-
 Private Sub btnFindbyID_Click()
     'Open Find Order by ID form
     DoCmd.OpenForm "frmOrderbyID", acNormal
@@ -38,7 +37,7 @@ Private Sub btnMainMenu_Click()
 End Sub
 
 Private Sub btnPending_Click()
-    'Declare variables to be used
+    'Declare variables 
     Dim DocName As String 'name for document to be opened
     Dim strCondition As String 'name for condition
     
@@ -52,7 +51,7 @@ Private Sub btnPending_Click()
 End Sub
 
 Private Sub btnReceived_Click()
-    'Declare variables to be used
+    'Declare variables
     Dim DocName As String 'name for document to be opened
     Dim strCondition As String 'name for condition
     

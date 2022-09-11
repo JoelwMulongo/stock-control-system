@@ -109,7 +109,7 @@ Private Sub LandlineNo_AfterUpdate()
 End Sub
 
 Private Sub MobileNo_AfterUpdate()
-    'Error message if data is not numeric
+    'Error message if data not numeric
     If IsNumeric(Me.MobileNo) = False Then
         MsgBox "Invalid Data! Please enter numeric data only.", vbCritical, "Error Message"
         'Erase and return focus to the field

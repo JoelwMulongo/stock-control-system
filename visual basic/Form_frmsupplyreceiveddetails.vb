@@ -1,5 +1,4 @@
 Option Compare Database
-
 Private Sub CostPrice_AfterUpdate()
     'Error message if value is less and equal to zero
     If Me.CostPrice <= 0 Then
@@ -36,7 +35,7 @@ Private Sub ItemID_AfterUpdate()
 End Sub
 
 Private Sub ItemName_AfterUpdate()
-    'Declare varibales to be used
+    'Declare varibales 
     Dim dbs As DAO.Database 'name for current database
     Dim rst As DAO.Recordset 'name for new recordset
         

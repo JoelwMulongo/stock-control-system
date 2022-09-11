@@ -1,7 +1,7 @@
 Option Compare Database
 
 Private Sub btnClear_Click()
-    'Clear all fields
+   
     Me.Undo
 End Sub
 

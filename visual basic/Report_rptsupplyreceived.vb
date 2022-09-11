@@ -15,6 +15,6 @@ Private Sub lblDetails_Click()
     'Assign condition where SupplyID matches
     strCondition = "SupplyID=" & SupplyID
 
-    'Open Supply Received Form according to the condition
+    'Open Supply Received Form 
     DoCmd.OpenForm DocName, acNormal, , strCondition, acFormReadOnly
 End Sub

@@ -1,5 +1,4 @@
 Option Compare Database
-
 Private Sub btnClose_Click()
     'Ask to save record before closing form if Temp is equal to Yes
      If Me.txtTemp = "Yes" Then
@@ -29,7 +28,6 @@ Private Sub btnDelete_Click()
     'Delete current record
     DoCmd.RunCommand acCmdDeleteRecord
 End Sub
-
 Private Sub btnFill_Click()
     'Declare varibales to be used
     Dim dbs As DAO.Database 'name for current database
