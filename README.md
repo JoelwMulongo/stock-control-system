@@ -10,7 +10,13 @@
  MainMenu-->Stock;
  MainMenu-->Items;
  MainMenu-->Orders;
- MainMenu-->GenerateReports;
+ MainMenu-->supply;
+ MainMenu-->Suppliers;
+ Stock-->GenerateReports;
+ Items-->GenerateReports;
+ Orders-->GenerateReports;
+ supply-->GenerateReports;
+ Suppliers-->GenerateReports;
  ```
 # stock-control-system
 The system allows store keeper of organisations to manage, monitor and control the stock present in a medium enterprise.	<img src="img/stock.jpeg"/>
